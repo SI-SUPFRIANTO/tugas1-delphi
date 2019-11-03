@@ -1,0 +1,161 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 383
+  ClientWidth = 346
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Kalkulator: TLabel
+    Position.X = 104.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 137.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'APLIKASI KALKULATOR'
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Position.X = 16.000000000000000000
+    Position.Y = 48.000000000000000000
+    Text = 'Angka1'
+    TabOrder = 1
+  end
+  object Label2: TLabel
+    HelpType = htKeyword
+    Position.X = 16.000000000000000000
+    Position.Y = 104.000000000000000000
+    StyleLookup = 'Label2Style1'
+    Text = 'Angka 2'
+    TabOrder = 3
+  end
+  object Label3: TLabel
+    HelpType = htKeyword
+    Position.X = 16.000000000000000000
+    Position.Y = 160.000000000000000000
+    StyleLookup = 'Label2Style1'
+    Text = 'Hasil'
+    TabOrder = 2
+  end
+  object nil1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 4
+    Position.X = 136.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 161.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object nil2: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 5
+    Position.X = 136.000000000000000000
+    Position.Y = 104.000000000000000000
+    Size.Width = 161.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object h: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 6
+    Position.X = 136.000000000000000000
+    Position.Y = 160.000000000000000000
+    Size.Width = 161.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object tambah: TButton
+    Position.X = 8.000000000000000000
+    Position.Y = 224.000000000000000000
+    Size.Width = 65.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 10
+    Text = 'TAMBAH'
+    OnClick = tambahClick
+  end
+  object kurang: TButton
+    Position.X = 96.000000000000000000
+    Position.Y = 224.000000000000000000
+    Size.Width = 65.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 9
+    Text = 'KURANG'
+    OnClick = kurangClick
+  end
+  object kali: TButton
+    Position.X = 272.000000000000000000
+    Position.Y = 224.000000000000000000
+    Size.Width = 65.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    Text = 'KALI'
+    OnClick = kaliClick
+  end
+  object bagi: TButton
+    Position.X = 184.000000000000000000
+    Position.Y = 224.000000000000000000
+    Size.Width = 65.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    Text = 'BAGI'
+    OnClick = bagiClick
+  end
+  object hapus: TButton
+    Position.X = 80.000000000000000000
+    Position.Y = 272.000000000000000000
+    Size.Width = 65.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 11
+    Text = 'HAPUS'
+    OnClick = hapusClick
+  end
+  object keluar: TButton
+    Position.X = 192.000000000000000000
+    Position.Y = 272.000000000000000000
+    Size.Width = 65.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 12
+    Text = 'KELUAR'
+    OnClick = keluarClick
+  end
+  object Label4: TLabel
+    Position.X = 24.000000000000000000
+    Position.Y = 320.000000000000000000
+    Text = 'Nama :'
+    TabOrder = 16
+  end
+  object Label5: TLabel
+    Position.X = 24.000000000000000000
+    Position.Y = 344.000000000000000000
+    Text = 'NIM :'
+    TabOrder = 15
+  end
+  object Label6: TLabel
+    Position.X = 72.000000000000000000
+    Position.Y = 320.000000000000000000
+    Text = 'SUPFRIANTO'
+    TabOrder = 14
+  end
+  object Label7: TLabel
+    Position.X = 72.000000000000000000
+    Position.Y = 344.000000000000000000
+    Text = '160250501050'
+    TabOrder = 13
+  end
+  object Line1: TLine
+    LineType = Diagonal
+    Position.X = 24.000000000000000000
+    Position.Y = 312.000000000000000000
+    Size.Width = 297.000000000000000000
+    Size.Height = 1.000000000000000000
+    Size.PlatformDefault = False
+  end
+end
